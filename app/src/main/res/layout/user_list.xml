@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:padding="10dp"
+    android:background="#9CAEC1"
+    android:layout_margin="10dp"
+
+    >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profileimg"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_weight="1.5"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="name"
+            android:textStyle="bold"
+            android:id="@+id/nameview"
+            android:textSize="17dp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="name"
+            android:id="@+id/ageview"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="name"
+            android:id="@+id/addressview"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:src="@drawable/garbage"
+            android:id="@+id/delete"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="name"
+
+
+            android:layout_marginTop="28dp"
+            android:layout_gravity="end"
+            android:textAlignment="textEnd"
+            android:id="@+id/genderview"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>
